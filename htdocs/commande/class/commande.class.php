@@ -4465,7 +4465,7 @@ class OrderLine extends CommonOrderLine
 	{
 		$error = 0;
 
-		$pa_ht_isemptystring = (empty($this->pa_ht) && $this->pa_ht == ''); // If true, we can use a default value. If this->pa_ht = '0', we must use '0'.
+		$pa_ht_isemptystring = (empty($this->pa_ht) && ($this->pa_ht == '' || $this->pa_ht === 0.0)); // If true, we can use a default value. If this->pa_ht = '0', we must use '0'.
 
 		dol_syslog(get_class($this)."::insert rang=".$this->rang);
 

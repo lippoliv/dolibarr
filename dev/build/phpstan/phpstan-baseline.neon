@@ -5677,48 +5677,6 @@ parameters:
 			path: ../../../htdocs/core/class/html.form.class.php
 
 		-
-			message: '#^Property Form\:\:\$cache_conditions_paiements has no type specified\.$#'
-			identifier: missingType.property
-			count: 1
-			path: ../../../htdocs/core/class/html.form.class.php
-
-		-
-			message: '#^Property Form\:\:\$cache_demand_reason has no type specified\.$#'
-			identifier: missingType.property
-			count: 1
-			path: ../../../htdocs/core/class/html.form.class.php
-
-		-
-			message: '#^Property Form\:\:\$cache_invoice_subtype has no type specified\.$#'
-			identifier: missingType.property
-			count: 1
-			path: ../../../htdocs/core/class/html.form.class.php
-
-		-
-			message: '#^Property Form\:\:\$cache_transport_mode has no type specified\.$#'
-			identifier: missingType.property
-			count: 1
-			path: ../../../htdocs/core/class/html.form.class.php
-
-		-
-			message: '#^Property Form\:\:\$cache_types_fees has no type specified\.$#'
-			identifier: missingType.property
-			count: 1
-			path: ../../../htdocs/core/class/html.form.class.php
-
-		-
-			message: '#^Property Form\:\:\$cache_types_paiements has no type specified\.$#'
-			identifier: missingType.property
-			count: 1
-			path: ../../../htdocs/core/class/html.form.class.php
-
-		-
-			message: '#^Property Form\:\:\$cache_vatrates has no type specified\.$#'
-			identifier: missingType.property
-			count: 1
-			path: ../../../htdocs/core/class/html.form.class.php
-
-		-
 			message: '#^Return type of call to function dol_sort_array contains unresolvable type\.$#'
 			identifier: function.unresolvableReturnType
 			count: 3
@@ -14065,18 +14023,6 @@ parameters:
 			path: ../../../htdocs/reception/card.php
 
 		-
-			message: '#^Loose comparison using \=\= between ''''\|''CommandeFournisseur'' and ''commande'' will always evaluate to false\.$#'
-			identifier: equal.alwaysFalse
-			count: 2
-			path: ../../../htdocs/reception/card.php
-
-		-
-			message: '#^Loose comparison using \=\= between ''''\|''CommandeFournisseur'' and ''propal'' will always evaluate to false\.$#'
-			identifier: equal.alwaysFalse
-			count: 2
-			path: ../../../htdocs/reception/card.php
-
-		-
 			message: '#^Negated boolean expression is always true\.$#'
 			identifier: booleanNot.alwaysTrue
 			count: 1
@@ -14086,12 +14032,6 @@ parameters:
 			message: '#^Property ReceptionLineBatch\:\:\$batch \(string\) in isset\(\) is not nullable\.$#'
 			identifier: isset.property
 			count: 1
-			path: ../../../htdocs/reception/card.php
-
-		-
-			message: '#^Result of && is always false\.$#'
-			identifier: booleanAnd.alwaysFalse
-			count: 8
 			path: ../../../htdocs/reception/card.php
 
 		-
@@ -14243,24 +14183,6 @@ parameters:
 			identifier: variable.undefined
 			count: 2
 			path: ../../../htdocs/reception/contact.php
-
-		-
-			message: '#^Loose comparison using \=\= between ''''\|''CommandeFournisseur'' and ''commande'' will always evaluate to false\.$#'
-			identifier: equal.alwaysFalse
-			count: 1
-			path: ../../../htdocs/reception/dispatch.php
-
-		-
-			message: '#^Loose comparison using \=\= between ''''\|''CommandeFournisseur'' and ''propal'' will always evaluate to false\.$#'
-			identifier: equal.alwaysFalse
-			count: 1
-			path: ../../../htdocs/reception/dispatch.php
-
-		-
-			message: '#^Result of && is always false\.$#'
-			identifier: booleanAnd.alwaysFalse
-			count: 4
-			path: ../../../htdocs/reception/dispatch.php
 
 		-
 			message: '#^Variable \$objectsrc might not be defined\.$#'
@@ -16115,12 +16037,6 @@ parameters:
 			identifier: identical.alwaysFalse
 			count: 1
 			path: ../../../htdocs/webhook/triggerhistory_list.php
-
-		-
-			message: '#^Loose comparison using \=\= between ''auto'' and ''auto'' will always evaluate to true\.$#'
-			identifier: equal.alwaysTrue
-			count: 1
-			path: ../../../htdocs/webportal/class/context.class.php
 
 		-
 			message: '#^Result of && is always false\.$#'
